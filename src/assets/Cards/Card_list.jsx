@@ -17,7 +17,7 @@ const Card_list = ({ features=[] }) => {
         title={features[i].title} 
         sub_title={features[i].sub_title}
         arrow_icon={features[i].arrow_icon}
-        className={i === 0 ? 'bg-[#001726] text-white' : ''}
+        className={i === 0 ? 'bg-[#001720] text-white' : ''}
         highlightReadMore={i === 0}
         />
         );
