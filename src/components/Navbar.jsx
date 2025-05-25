@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from '../assets/button';
+import Button from './Button';
 import "./styles.css";
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
 
         {/* Hamburger Icon */}
         <div className="lg:hidden">
-          <button
+          <Button
             className="focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
@@ -44,7 +44,7 @@ const Navbar = () => {
                 />
               )}
             </svg>
-          </button>
+          </Button>
         </div>
 
         {/* Links - Desktop */}
