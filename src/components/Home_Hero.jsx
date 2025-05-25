@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../assets/button'
+import Button from '.Button'
 import Hero from '../assets/images/hero.png'
 import Pattern from '../assets/images/pattern.png'
 import Review_tape from '../assets/images/review_tape.png'
