@@ -1,5 +1,5 @@
 import React from 'react'
-import Digiket from '../assets/images/digiket.png'
+import Digiket from '../assets/images/Digiket.png'
 import Button from './Button'
 
 const Footer = () => {
